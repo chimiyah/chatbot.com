@@ -1,0 +1,353 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hey",
+                "Hello",
+                "Is anyone there?",
+                "Olah",
+                "What's up?",
+                "Good day!"
+            ],
+            "responses": [
+                "Hey :) I'm Perpsie",
+                "Hello, how can I help you?",
+                "Hey how are you? ",
+                "Hi there, what can I help you with?",
+                "Hi! I'm Perpsie"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["Bye","Goodbye","Ok, Bye","Ciao"],
+            "responses": [
+                "Have a nice day",
+                "Have a colorful week",
+                "Bye! Hope you can come back again soon",
+                "See you later"
+            ]
+        },
+        {
+            "tag": "Thanks",
+            "patterns":[
+                "Thanks","Thank you","Thank you very much","Salamat"
+            ],
+            "responses": [
+                "Happy to help", "No problem", "Any time!", "My pleasure","You're welcome"
+            ]
+        },
+        {
+            "tag": "courses",
+            "patterns": [
+                "course in this school",
+                "How many course do you have?",
+                "Available course"
+            ],
+            "responses": [
+                "Here are the list of courses this university can offer:\nArchitecture \nArts & Science \nBusiness \nCriminology \nEngineering \nInformation Technology Education \nInternational Tourism and Hospitality Management\nMedical and Allied Health \nTechnical Vocational Programs",
+                "This university can offer you this courses: :\nArchitecture \nArts & Science \nBusiness \nCriminology \nEngineering \nInformation Technology Education \nInternational Tourism and Hospitality Management\nMedical and Allied Health \nTechnical Vocational Programs",
+                "See the list of courses this university can offer:\nArchitecture \nArts & Science \nBusiness \nCriminology \nEngineering \nInformation Technology Education \nInternational Tourism and Hospitality Management\nMedical and Allied Health \nTechnical Vocational Programs"
+            
+            ]
+        },
+        {
+            "tag": "architecture",
+            "patterns": [
+                "Do you offer Architecture?",
+                "Does the course Architecture available?",
+                "Is there Architecture in this school?"
+            ],
+            "responses": [
+                "Yes, this university offers BS in Architecture",
+                "Yes, we offer BS in Architecture"
+
+
+            ]
+
+        },
+        {
+            "tag": "Arts & Science",
+            "patterns": [
+                "What programs do you offer in Arts & and Science?",
+                "What courses do you offer in Arts & and Science?",
+                "arts and science program",
+                "Course in arts and science",
+                "Available course in Arts and Science",
+                "Available program in Arts and science"
+            ],
+            "responses": [
+                "Here are the list of programs offered in this Univerity \n\nAB in Communication \nAB in Psychology"
+            ]
+
+        },
+        {
+            "tag": "Business",
+            "patterns": [
+                "What programs do you offer in Business?",
+                "What courses do you offer in Business?",
+                "business programs",
+                "course in business",
+                "Available course in Business",
+                "Available program in Business"
+            ],
+            "responses": [
+                "Here are the list of programs offered in this Univerity \n\nBS in Accountancy \nBS in Business Administration Major in Human Resource Management \nBS in Business Administration Major in Marketing Management \nBS in Entrepreneurship"
+            ]
+
+        },
+        {
+            "tag": "Criminology",
+            "patterns": [
+                "Do you offer criminology?",
+                "Does the course criminology available?",
+                "Is there criminology in this school?"
+            ],
+            "responses": [
+                "Yes, this university offers BS in Criminology",
+                "Yes, we offer BS in Criminology"
+
+            ]
+
+        },
+        {
+            "tag": "Engineering",
+            "patterns": [
+                "What programs do you offer in Engineering?",
+                "What courses do you offer in Engineering?",
+                "engineering programs",
+                "course in engineering",
+                "Available course in Engineering",
+                "Available program in Engineering"
+            ],
+            "responses": [
+                "Here are the list of programs offered in this Univerity \n\nBS in Civil Engineering \nBS in Computer Engineering \nBS in Electrical Engineering \nBS in Electronics Engineering \nBS in Industrial Engineering \nBS in Mechanical Engineering"
+            ]
+
+        },
+        {
+            "tag": "Information Technology",
+            "patterns": [
+                "What programs do you offer in Information Technology?",
+                "What courses do you offer in Information Technology?",
+                "information technology programs",
+                "course in information technology",
+                "Available course in Information Technology",
+                "Available program in Information Technology"
+            ],
+            "responses": [
+                "Here are the list of programs offered in this Univerity \n\nBS in Computer Science \nBS in Information Technology"
+            ]
+
+        },
+        {
+            "tag": "Tourism Hospitality Management",
+            "patterns": [
+                "What programs do you offer in Tourism and Hospitality Management?",
+                "What courses do you offer in Tourism and Hospitality Management?",
+                "tourism and hospitality management programs",
+                "course in tourism and hospitality management",
+                "Available course in Tourism and Hospitality Management",
+                "Available program in Tourism and Hospitality Management"
+            ],
+            "responses": [
+                "Here are the list of programs offered in this Univerity \n\nBS in Hospitality Management \nBS in Tourism Management"
+            ]
+
+        },
+        {
+            "tag": "Medical Allied Health",
+            "patterns": [
+                "What programs do you offer in Medical and Allied Health?",
+                "What courses do you offer in Medical and Allied Health?",
+                "medical and allied health programs",
+                "course in medical and allied health",
+                "Available course in Medical and Allied Health",
+                "Available program in Medical and Allied Health"
+            ],
+            "responses": [
+                "Here are the list of programs offered in this Univerity BS in Medical Technology \nBS in Nursing \nBS in Occupational Therapy \nBS in Pharmacy \nBS in Physical Therapy \nBS in Radiologic Technology"
+            ]
+
+        },
+        {
+            "tag": "Teacher",
+            "patterns": [
+                "What programs do you offer in Teacher Education?",
+                "teacher education programs",
+                "course in teacher education",
+                "Available course in Teacher Education",
+                "Available program in Teacher Education"
+            ],
+            "responses": [
+                "Here are the list of programs offered in this Univerity \n\nBachelor of Elementary Education \nBachelor of Secondary Education"
+            ]
+
+        },
+        {
+            "tag": "Technical Vocational",
+            "patterns": [
+                "What programs do you offer in Technical Vocational?",
+                "What courses do you offer in Technical Vocational?",
+                "techvoc programs",
+                "course in techvoc",
+                "Available course in Technical Vocational",
+                "Available program in Technical Vocational"
+            ],
+            "responses": [
+                "Here are the list of programs offered in this Univerity \n\nAgricultural Crops Production NCI \nAnimal Production NCII \nBread and Pastry NCII \nCaregiving NCII \nCommercial Cooking / Cookery NCII \nComputer System Servicing NCII \nFood and Beverages Service NCII \nHousekeeping NCII \nShielded Metal Arc Welding(SWAM) NCII"
+            ]
+
+        },
+       
+        {
+            "tag": "fee",
+            "patterns": [
+                "How much is the tuition fee?",
+                "How much per semester?",
+                "How much does it all cost?",
+                "tuition "
+            ],
+            "responses": [
+                "The tuition fee may vary depends on the course.",
+                "The tuition fee of the student may vary depends on the course."
+
+            ]
+        },
+        {
+            "tag": "payment",
+            "patterns": [
+                "Do you take credit cards?",
+                "Can I pay with GCash?",
+                "how can i pay my tuition?",
+                "what type of payment do you accept?",
+                "Are you cash only?"
+            ],
+            "responses": [
+                "You can pay through online transaction or you can go to cashiers office personally"
+
+            ]
+        },
+        {
+            "tag": "scholarship",
+            "patterns": [
+                "Can I get a scholarship in this university?",
+                "what type of scholarship do you offer?",
+                "scholarship program",
+                "Do you have a university discount?",
+                "Do you grant scholarship?",
+                "what is the scholarship criteria?",
+                "How can i get a discount?"
+            ],
+            "responses": [
+                "The list below is the following scholarship programs: \n\nGraduating Classes \nwith highest honors (100% discount), \nwith high honors(50% discount), \nwith honors (25% discount), \n\nDean's List \nGWA of 1.25 or better (100% discount), \nGWA of 1.50 or better (50% discount), \nNote: students must not obtain grades below 88% or 2.00 at any subject \n\nPeforming Arts Group \nresidency as a member of at least 2.5 years will get 25% discount \n\nSchool Paper Staff \nEditor-in-chief(100% discount), \nAssociate Editor(50% discount) \nManaging Editor(25% discount) \nChief Photographer(25% discoount) \n\nSupreme Student Council \nPresident(100% discount) \nVice President(100%) \nSecrerary, treasurer, Auditor, Business Manager and PRO (25% discount) \n\nCollege Student Council(15% discount) \n-for President only "
+
+            ]
+        },
+        {
+            "tag": "scholarship document ",
+            "patterns": [
+                "what do i need to bring for scholarship?",
+                "what is the document requirement for scholarship?"
+            ],
+            "responses": [
+                "For college students, registration form and copy of grades from previous semester signed by the Registrar",
+                "For COLLEGE students, registration form and copy of grades from previous semester signed by the Registrar",
+                "For college STUDENTS, registration form and copy of grades from previous semester signed by the Registrar"
+                
+            ]
+        },
+        {
+            "tag": "admission",
+            "patterns": [
+                "What is the admission requirements?",
+                "How to enroll?",
+                "What type of documents do i need for enrollment?",
+                "How can i enroll in this university?",
+                "Enrollment requirements",
+                "what do i need to bring for enrollment?",
+                "admission requirements in this university"
+            ],
+            "responses": [
+                "For Freshmen \n -Birth Certificate (PSA Issued) \n -Form 138 (Original Report Card) \n-Good Moral Character Certificate\n -National Career Assessment Examination Result or Occupational Interest Inventory for HS Cert of Rating (For TESDA Programs only) \n -3 pcs. 2×2 Colored Picture \n -1 Long White Folder\n -1 Long Brown Envelope\n\nFor Transferees/Degree Holders\n -Birth Certificate (PSA Issued)\n -Transfer Credential\n\nGood Moral Character Certificate\n -Transcript of Records/ Certified True Copy of Grades\n -3 pcs. 2×2 Colored Picture\n -1 Long White Folder\n -1 Long Brown Envelope \n\nFor Cross Enrollees\n -Permit to Cross-Enroll Certificate\n -Birth Certificate (PSA Issued)\n -2 pcs. 2×2 Colored Pictures\n -1 Long White Folder\n -1 Long Brown Envelope"
+
+
+            ]
+        },
+        {
+            "tag": "faq_yes",
+            "patterns": [
+                "Do you have internship and study abroad oppurtunities?",
+                "Do you have an honors program?",
+                "Is this a good university?",
+                "Can i find a job on campus?",
+                "Does this school offer tutoring program?",
+                "Are there enough computer lab?",
+                "Are the students friendly?",
+                "Is there diversity on campus?"
+            ],
+            "responses": [
+                "Fortunately, Yes",
+                "Yes, there is",
+                "Gladly yes, there is"
+            ]
+        },
+        {
+            "tag": "faq_no",
+            "patterns": [
+                "Is there on-campus housing?",
+                "Is this school worth it?",
+                "Do i love this school?",
+                "on-campus",
+                "housing"
+            ],
+            "responses": [
+                "Unfortunately, no",
+                "No, I'm sorry",
+                "There wasn't, sorry"
+            ]
+        },
+        {
+            "tag": "Location",
+            "patterns": [
+                "What is the location of the school?",
+                "What is the school address?",
+                "location",
+                "school location",
+                "where is the school?",
+                "where is the exact location of the school",
+                "school address"
+            ],
+            "responses": [
+                "Brgy. Paciano Rizal, Calamba, 4027 Laguna",
+                "The location of the university is Brgy. Paciano Rizal, Calamba, 4027 Laguna",
+                "You can check the university with this locations: \nBrgy. Paciano Rizal, Calamba, 4027 Laguna"
+
+
+            ]
+
+        },
+        {
+            "tag": "Contact",
+            "patterns": [
+                "School Contact Information",
+                "telephone number",
+                "ways to contact",
+                "Contact Information",
+                "How can i contact the school?",
+                "School Contact number",
+                "telephone no."
+            ],
+            "responses": [
+                "You can contact someone with this info \nInformation Center\n info.calamba@perpetualdalta.edu.ph \nContact Number\n (049) 834-1159 \nRegistrar Office\n registrar.calamba@perpetualdalta.edu.ph \n (049) 834 -1159 local 104",
+                "\nInformation Center\n info.calamba@perpetualdalta.edu.ph \nContact Number\n (049) 834-1159 \nRegistrar Office\n registrar.calamba@perpetualdalta.edu.ph \n (049) 834 -1159 local 104"
+
+
+            ]
+
+        }
+
+
+    ]
+}
